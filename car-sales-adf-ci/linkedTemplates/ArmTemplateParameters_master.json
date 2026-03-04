@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "car-sales-adf-ci"
+		},
+		"ds_adls_parquet_sink_accountKey": {
+			"value": ""
+		},
+		"ls_sql_sink_password": {
+			"value": ""
+		},
+		"ds_adls_parquet_sink_properties_typeProperties_url": {
+			"value": "https://carsalesadls.dfs.core.windows.net/"
+		},
+		"ls_http_git_src_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_sql_sink_properties_typeProperties_server": {
+			"value": "car-sales-server0101.database.windows.net"
+		},
+		"ls_sql_sink_properties_typeProperties_database": {
+			"value": "car-sales-db"
+		},
+		"ls_sql_sink_properties_typeProperties_userName": {
+			"value": "pavan"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
