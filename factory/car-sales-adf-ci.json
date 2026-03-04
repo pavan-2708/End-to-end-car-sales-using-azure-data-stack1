@@ -1,0 +1,9 @@
+{
+	"name": "car-sales-adf-ci",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "12831e0d-6aaa-44d2-9d44-46b045857c27",
+		"tenantId": "d500a084-e941-4359-b694-db8803277a64"
+	}
+}

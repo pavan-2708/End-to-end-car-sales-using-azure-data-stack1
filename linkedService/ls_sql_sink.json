@@ -1,0 +1,17 @@
+{
+	"name": "ls_sql_sink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "car-sales-server0101.database.windows.net",
+			"database": "car-sales-db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "pavan",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDg2MjJFQzY1LTExOTMtNEYwNC05NEFCLTU3NjRBMUU1QzM4M184N2FjZjE4NC1lMDNmLTRmMjUtYTNlYi1iMjBlYTVjMTBjY2YiDQp9"
+		}
+	}
+}

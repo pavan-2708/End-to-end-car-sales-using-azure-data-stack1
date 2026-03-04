@@ -1,0 +1,31 @@
+{
+	"name": "ds_http_git_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_http_git_src",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "pavan-2708/End-to-end-car-sales-using-azure-data-stack1/refs/heads/main/rawdataset/@{dataset().file_name}",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
